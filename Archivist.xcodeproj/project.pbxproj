@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E45E620A15A9C2F700E3518C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45E620915A9C2F700E3518C /* Cocoa.framework */; };
+		E45E620C15A9C2F700E3518C /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45E620B15A9C2F700E3518C /* MacRuby.framework */; };
+		E45E621515A9C2F700E3518C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E45E621315A9C2F700E3518C /* InfoPlist.strings */; };
+		E45E621715A9C2F700E3518C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E45E621615A9C2F700E3518C /* main.m */; };
+		E45E621B15A9C2F700E3518C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E45E621915A9C2F700E3518C /* MainMenu.xib */; };
+		E45E621E15A9C2F700E3518C /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = E45E621D15A9C2F700E3518C /* rb_main.rb */; };
+		E45E622015A9C2F700E3518C /* MyDocument.rb in Resources */ = {isa = PBXBuildFile; fileRef = E45E621F15A9C2F700E3518C /* MyDocument.rb */; };
+		E45E622315A9C2F700E3518C /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = E45E622115A9C2F700E3518C /* MyDocument.xib */; };
+		E45E622615A9C2F700E3518C /* MyDocument.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E45E622415A9C2F700E3518C /* MyDocument.xcdatamodeld */; };
+		E45E622E15A9C2F800E3518C /* ArchivistImporter.mdimporter in Resources */ = {isa = PBXBuildFile; fileRef = E45E622B15A9C2F800E3518C /* ArchivistImporter.mdimporter */; };
+		E45E623015A9C2F800E3518C /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45E622F15A9C2F800E3518C /* CoreServices.framework */; };
+		E45E623215A9C2F800E3518C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45E623115A9C2F800E3518C /* CoreFoundation.framework */; };
+		E45E623415A9C2F800E3518C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45E623315A9C2F800E3518C /* CoreData.framework */; };
+		E45E623615A9C2F800E3518C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45E623515A9C2F800E3518C /* Foundation.framework */; };
+		E45E623C15A9C2F800E3518C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E45E623A15A9C2F800E3518C /* InfoPlist.strings */; };
+		E45E623E15A9C2F800E3518C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = E45E623D15A9C2F800E3518C /* main.c */; };
+		E45E624015A9C2F800E3518C /* GetMetadataForFile.m in Sources */ = {isa = PBXBuildFile; fileRef = E45E623F15A9C2F800E3518C /* GetMetadataForFile.m */; };
+		E45E624315A9C2F800E3518C /* MySpotlightImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = E45E624215A9C2F800E3518C /* MySpotlightImporter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E45E620E15A9C2F700E3518C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E45E61FC15A9C2F700E3518C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E45E620415A9C2F700E3518C;
+			remoteInfo = Archivist;
+		};
+		E45E622C15A9C2F800E3518C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E45E61FC15A9C2F700E3518C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E45E622A15A9C2F800E3518C;
+			remoteInfo = ArchivistImporter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E45E620515A9C2F700E3518C /* Archivist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Archivist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45E620915A9C2F700E3518C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E45E620B15A9C2F700E3518C /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		E45E621215A9C2F700E3518C /* Archivist-Info.plist */ = {isa = PBXFileReference; path = "Archivist-Info.plist"; sourceTree = "<group>"; };
+		E45E621415A9C2F700E3518C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E45E621615A9C2F700E3518C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E45E621815A9C2F700E3518C /* Archivist-Prefix.pch */ = {isa = PBXFileReference; path = "Archivist-Prefix.pch"; sourceTree = "<group>"; };
+		E45E621A15A9C2F700E3518C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E45E621D15A9C2F700E3518C /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		E45E621F15A9C2F700E3518C /* MyDocument.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = MyDocument.rb; sourceTree = "<group>"; };
+		E45E622215A9C2F700E3518C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MyDocument.xib; sourceTree = "<group>"; };
+		E45E622515A9C2F700E3518C /* MyDocument.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyDocument.xcdatamodel; sourceTree = "<group>"; };
+		E45E622B15A9C2F800E3518C /* ArchivistImporter.mdimporter */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchivistImporter.mdimporter; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45E622F15A9C2F800E3518C /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		E45E623115A9C2F800E3518C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		E45E623315A9C2F800E3518C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E45E623515A9C2F800E3518C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E45E623915A9C2F800E3518C /* ArchivistImporter-Info.plist */ = {isa = PBXFileReference; path = "ArchivistImporter-Info.plist"; sourceTree = "<group>"; };
+		E45E623B15A9C2F800E3518C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E45E623D15A9C2F800E3518C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		E45E623F15A9C2F800E3518C /* GetMetadataForFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetMetadataForFile.m; sourceTree = "<group>"; };
+		E45E624115A9C2F800E3518C /* MySpotlightImporter.h */ = {isa = PBXFileReference; path = MySpotlightImporter.h; sourceTree = "<group>"; };
+		E45E624215A9C2F800E3518C /* MySpotlightImporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySpotlightImporter.m; sourceTree = "<group>"; };
+		E45E624415A9C2F800E3518C /* Importer Read Me.txt */ = {isa = PBXFileReference; path = "Importer Read Me.txt"; sourceTree = "<group>"; };
+		E45E624515A9C2F800E3518C /* ArchivistImporter-Prefix.pch */ = {isa = PBXFileReference; path = "ArchivistImporter-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E45E620215A9C2F700E3518C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45E620A15A9C2F700E3518C /* Cocoa.framework in Frameworks */,
+				E45E620C15A9C2F700E3518C /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45E622815A9C2F800E3518C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45E623015A9C2F800E3518C /* CoreServices.framework in Frameworks */,
+				E45E623215A9C2F800E3518C /* CoreFoundation.framework in Frameworks */,
+				E45E623415A9C2F800E3518C /* CoreData.framework in Frameworks */,
+				E45E623615A9C2F800E3518C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E45E61FA15A9C2F700E3518C = {
+			isa = PBXGroup;
+			children = (
+				E45E621015A9C2F700E3518C /* Archivist */,
+				E45E623715A9C2F800E3518C /* ArchivistImporter */,
+				E45E620815A9C2F700E3518C /* Frameworks */,
+				E45E620615A9C2F700E3518C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E45E620615A9C2F700E3518C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E45E620515A9C2F700E3518C /* Archivist.app */,
+				E45E622B15A9C2F800E3518C /* ArchivistImporter.mdimporter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E45E620815A9C2F700E3518C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E45E620915A9C2F700E3518C /* Cocoa.framework */,
+				E45E620B15A9C2F700E3518C /* MacRuby.framework */,
+				E45E622F15A9C2F800E3518C /* CoreServices.framework */,
+				E45E623115A9C2F800E3518C /* CoreFoundation.framework */,
+				E45E623315A9C2F800E3518C /* CoreData.framework */,
+				E45E623515A9C2F800E3518C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E45E621015A9C2F700E3518C /* Archivist */ = {
+			isa = PBXGroup;
+			children = (
+				E45E621915A9C2F700E3518C /* MainMenu.xib */,
+				E45E621F15A9C2F700E3518C /* MyDocument.rb */,
+				E45E622115A9C2F700E3518C /* MyDocument.xib */,
+				E45E622415A9C2F700E3518C /* MyDocument.xcdatamodeld */,
+				E45E621C15A9C2F700E3518C /* Other Sources */,
+				E45E621115A9C2F700E3518C /* Supporting Files */,
+			);
+			path = Archivist;
+			sourceTree = "<group>";
+		};
+		E45E621115A9C2F700E3518C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E45E621215A9C2F700E3518C /* Archivist-Info.plist */,
+				E45E621315A9C2F700E3518C /* InfoPlist.strings */,
+				E45E621615A9C2F700E3518C /* main.m */,
+				E45E621815A9C2F700E3518C /* Archivist-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E45E621C15A9C2F700E3518C /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E45E621D15A9C2F700E3518C /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		E45E623715A9C2F800E3518C /* ArchivistImporter */ = {
+			isa = PBXGroup;
+			children = (
+				E45E623F15A9C2F800E3518C /* GetMetadataForFile.m */,
+				E45E624115A9C2F800E3518C /* MySpotlightImporter.h */,
+				E45E624215A9C2F800E3518C /* MySpotlightImporter.m */,
+				E45E624415A9C2F800E3518C /* Importer Read Me.txt */,
+				E45E623815A9C2F800E3518C /* Supporting Files */,
+			);
+			path = ArchivistImporter;
+			sourceTree = "<group>";
+		};
+		E45E623815A9C2F800E3518C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E45E623915A9C2F800E3518C /* ArchivistImporter-Info.plist */,
+				E45E623A15A9C2F800E3518C /* InfoPlist.strings */,
+				E45E623D15A9C2F800E3518C /* main.c */,
+				E45E624515A9C2F800E3518C /* ArchivistImporter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		E45E620D15A9C2F700E3518C /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = E45E624E15A9C2F800E3518C /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				E45E620F15A9C2F700E3518C /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		E45E620415A9C2F700E3518C /* Archivist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E45E624B15A9C2F800E3518C /* Build configuration list for PBXNativeTarget "Archivist" */;
+			buildPhases = (
+				E45E620115A9C2F700E3518C /* Sources */,
+				E45E620215A9C2F700E3518C /* Frameworks */,
+				E45E620315A9C2F700E3518C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E45E622D15A9C2F800E3518C /* PBXTargetDependency */,
+			);
+			name = Archivist;
+			productName = Archivist;
+			productReference = E45E620515A9C2F700E3518C /* Archivist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E45E622A15A9C2F800E3518C /* ArchivistImporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E45E624815A9C2F800E3518C /* Build configuration list for PBXNativeTarget "ArchivistImporter" */;
+			buildPhases = (
+				E45E622715A9C2F800E3518C /* Sources */,
+				E45E622815A9C2F800E3518C /* Frameworks */,
+				E45E622915A9C2F800E3518C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArchivistImporter;
+			productName = ArchivistImporter;
+			productReference = E45E622B15A9C2F800E3518C /* ArchivistImporter.mdimporter */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E45E61FC15A9C2F700E3518C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E45E61FF15A9C2F700E3518C /* Build configuration list for PBXProject "Archivist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E45E61FA15A9C2F700E3518C;
+			productRefGroup = E45E620615A9C2F700E3518C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E45E620415A9C2F700E3518C /* Archivist */,
+				E45E620D15A9C2F700E3518C /* Deployment */,
+				E45E622A15A9C2F800E3518C /* ArchivistImporter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E45E620315A9C2F700E3518C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45E621515A9C2F700E3518C /* InfoPlist.strings in Resources */,
+				E45E621B15A9C2F700E3518C /* MainMenu.xib in Resources */,
+				E45E621E15A9C2F700E3518C /* rb_main.rb in Resources */,
+				E45E622015A9C2F700E3518C /* MyDocument.rb in Resources */,
+				E45E622315A9C2F700E3518C /* MyDocument.xib in Resources */,
+				E45E622E15A9C2F800E3518C /* ArchivistImporter.mdimporter in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45E622915A9C2F800E3518C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45E623C15A9C2F800E3518C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E45E620115A9C2F700E3518C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45E621715A9C2F700E3518C /* main.m in Sources */,
+				E45E622615A9C2F700E3518C /* MyDocument.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45E622715A9C2F800E3518C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45E623E15A9C2F800E3518C /* main.c in Sources */,
+				E45E624015A9C2F800E3518C /* GetMetadataForFile.m in Sources */,
+				E45E624315A9C2F800E3518C /* MySpotlightImporter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E45E620F15A9C2F700E3518C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E45E620415A9C2F700E3518C /* Archivist */;
+			targetProxy = E45E620E15A9C2F700E3518C /* PBXContainerItemProxy */;
+		};
+		E45E622D15A9C2F800E3518C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E45E622A15A9C2F800E3518C /* ArchivistImporter */;
+			targetProxy = E45E622C15A9C2F800E3518C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E45E621315A9C2F700E3518C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E45E621415A9C2F700E3518C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E45E621915A9C2F700E3518C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E45E621A15A9C2F700E3518C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		E45E622115A9C2F700E3518C /* MyDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E45E622215A9C2F700E3518C /* en */,
+			);
+			name = MyDocument.xib;
+			sourceTree = "<group>";
+		};
+		E45E623A15A9C2F800E3518C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E45E623B15A9C2F800E3518C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E45E624615A9C2F800E3518C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E45E624715A9C2F800E3518C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E45E624915A9C2F800E3518C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArchivistImporter/ArchivistImporter-Prefix.pch";
+				INFOPLIST_FILE = "ArchivistImporter/ArchivistImporter-Info.plist";
+				INSTALL_PATH = "@executable_path/../Contents/Library/Spotlight";
+				LIBRARY_STYLE = BUNDLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = mdimporter;
+			};
+			name = Debug;
+		};
+		E45E624A15A9C2F800E3518C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArchivistImporter/ArchivistImporter-Prefix.pch";
+				INFOPLIST_FILE = "ArchivistImporter/ArchivistImporter-Info.plist";
+				INSTALL_PATH = "@executable_path/../Contents/Library/Spotlight";
+				LIBRARY_STYLE = BUNDLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = mdimporter;
+			};
+			name = Release;
+		};
+		E45E624C15A9C2F800E3518C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Archivist/Archivist-Prefix.pch";
+				INFOPLIST_FILE = "Archivist/Archivist-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E45E624D15A9C2F800E3518C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Archivist/Archivist-Prefix.pch";
+				INFOPLIST_FILE = "Archivist/Archivist-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E45E624F15A9C2F800E3518C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		E45E625015A9C2F800E3518C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E45E61FF15A9C2F700E3518C /* Build configuration list for PBXProject "Archivist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45E624615A9C2F800E3518C /* Debug */,
+				E45E624715A9C2F800E3518C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E45E624815A9C2F800E3518C /* Build configuration list for PBXNativeTarget "ArchivistImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45E624915A9C2F800E3518C /* Debug */,
+				E45E624A15A9C2F800E3518C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E45E624B15A9C2F800E3518C /* Build configuration list for PBXNativeTarget "Archivist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45E624C15A9C2F800E3518C /* Debug */,
+				E45E624D15A9C2F800E3518C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E45E624E15A9C2F800E3518C /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45E624F15A9C2F800E3518C /* Debug */,
+				E45E625015A9C2F800E3518C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E45E622415A9C2F700E3518C /* MyDocument.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E45E622515A9C2F700E3518C /* MyDocument.xcdatamodel */,
+			);
+			currentVersion = E45E622515A9C2F700E3518C /* MyDocument.xcdatamodel */;
+			path = MyDocument.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E45E61FC15A9C2F700E3518C /* Project object */;
+}
