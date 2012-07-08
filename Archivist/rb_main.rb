@@ -3,7 +3,7 @@
 #  Archivist
 #
 #  Created by Self Grubb on 7/8/12.
-#  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+#  Copyright (c) 2012 ignoredbydinosaurs. All rights reserved.
 #
 
 # Loading the Cocoa framework. If you need to load more frameworks, you can

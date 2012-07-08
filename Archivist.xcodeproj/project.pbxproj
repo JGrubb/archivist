@@ -48,10 +48,10 @@
 		E45E620515A9C2F700E3518C /* Archivist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Archivist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E45E620915A9C2F700E3518C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		E45E620B15A9C2F700E3518C /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
-		E45E621215A9C2F700E3518C /* Archivist-Info.plist */ = {isa = PBXFileReference; path = "Archivist-Info.plist"; sourceTree = "<group>"; };
+		E45E621215A9C2F700E3518C /* Archivist-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Archivist-Info.plist"; sourceTree = "<group>"; };
 		E45E621415A9C2F700E3518C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E45E621615A9C2F700E3518C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E45E621815A9C2F700E3518C /* Archivist-Prefix.pch */ = {isa = PBXFileReference; path = "Archivist-Prefix.pch"; sourceTree = "<group>"; };
+		E45E621815A9C2F700E3518C /* Archivist-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Archivist-Prefix.pch"; sourceTree = "<group>"; };
 		E45E621A15A9C2F700E3518C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		E45E621D15A9C2F700E3518C /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		E45E621F15A9C2F700E3518C /* MyDocument.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = MyDocument.rb; sourceTree = "<group>"; };
@@ -62,14 +62,14 @@
 		E45E623115A9C2F800E3518C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		E45E623315A9C2F800E3518C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		E45E623515A9C2F800E3518C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		E45E623915A9C2F800E3518C /* ArchivistImporter-Info.plist */ = {isa = PBXFileReference; path = "ArchivistImporter-Info.plist"; sourceTree = "<group>"; };
+		E45E623915A9C2F800E3518C /* ArchivistImporter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArchivistImporter-Info.plist"; sourceTree = "<group>"; };
 		E45E623B15A9C2F800E3518C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E45E623D15A9C2F800E3518C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		E45E623F15A9C2F800E3518C /* GetMetadataForFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetMetadataForFile.m; sourceTree = "<group>"; };
-		E45E624115A9C2F800E3518C /* MySpotlightImporter.h */ = {isa = PBXFileReference; path = MySpotlightImporter.h; sourceTree = "<group>"; };
+		E45E624115A9C2F800E3518C /* MySpotlightImporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySpotlightImporter.h; sourceTree = "<group>"; };
 		E45E624215A9C2F800E3518C /* MySpotlightImporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySpotlightImporter.m; sourceTree = "<group>"; };
-		E45E624415A9C2F800E3518C /* Importer Read Me.txt */ = {isa = PBXFileReference; path = "Importer Read Me.txt"; sourceTree = "<group>"; };
-		E45E624515A9C2F800E3518C /* ArchivistImporter-Prefix.pch */ = {isa = PBXFileReference; path = "ArchivistImporter-Prefix.pch"; sourceTree = "<group>"; };
+		E45E624415A9C2F800E3518C /* Importer Read Me.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Importer Read Me.txt"; sourceTree = "<group>"; };
+		E45E624515A9C2F800E3518C /* ArchivistImporter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArchivistImporter-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
